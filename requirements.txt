@@ -1,0 +1,29 @@
+# --- Framework API ---
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+pydantic-settings==2.7.1
+
+# --- LLM (Groq) --- (branché à l'étape 4)
+groq==0.15.0
+
+# --- RAG / Vector store --- (branchés aux étapes 2-3)
+chromadb==0.5.23
+sentence-transformers==3.3.1
+langchain==0.3.14
+langchain-community==0.3.14
+
+# --- Utilitaires ---
+python-dotenv==1.0.1
+python-multipart==0.0.20
+pypdf==5.1.0
+
+# --- Scraping web ---
+requests==2.32.3
+beautifulsoup4==4.12.3
+
+# --- Rate limiting ---
+slowapi==0.1.9
+
+# --- MySQL (route /documents/chat) ---
+PyMySQL==1.1.1
+DBUtils==3.1.0
