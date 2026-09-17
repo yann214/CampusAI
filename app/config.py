@@ -35,11 +35,11 @@ class Settings(BaseSettings):
     document_search_limit: int = 5
 
     # --- MySQL (table `documents` : métadonnées + chemin des fichiers) ---
-    mysql_host: str = "localhost"
+    mysql_host: str = " green-squid-818211.hostingersite.com"
     mysql_port: int = 3306
-    mysql_user: str = "root"
-    mysql_password: str = ""
-    mysql_database: str = "univ_douala_fs"
+    mysql_user: str = "u460062711_campus"
+    mysql_password: str = "CampusAI6"
+    mysql_database: str = " u460062711_campus_ai"
 
     # --- Fichiers téléchargeables (PDF/Word rangés par sous-dossier) ---
     # Racine sous laquelle tous les chemins enregistrés en base doivent rester
